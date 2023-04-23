@@ -16,22 +16,16 @@ ul {
 	width: 55%;
 }
 
-ul :first-child {
+ul :first-child, ul :last-child {
 	background: white;
+	color: black;
 }
 
-ul :nth-child(2) {
+ul :nth-child(2), ul :nth-child(4) {
 	background: slategray;
+	color: white;
 }
 
 ul :nth-child(3) {
 	background: pink;
-}
-
-ul :nth-child(4) {
-	background: slategray;
-}
-
-ul :nth-child(5) {
-	background: white;
 }
