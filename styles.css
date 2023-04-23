@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+body {
+	background: skyblue;
+}
+
+body :nth-child(2) {
+	color: white;
+	background: black;
+}
+
+body :nth-child(5) {
+	color: red;
+}
+
+ul {
+	width: 55%;
+}
+
+ul :first-child {
+	background: white;
+}
+
+ul :nth-child(2) {
+	background: slategray;
+}
+
+ul :nth-child(3) {
+	background: pink;
+}
+
+ul :nth-child(4) {
+	background: slategray;
+}
+
+ul :nth-child(5) {
+	background: white;
+}
